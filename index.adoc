@@ -1,0 +1,47 @@
+= Brillio
+//
+//Text below will appear above the date on the title page
+Brillio
+:doctype: book
+//
+//These items appear at the bottom of the title page:
+//:version-label: Brillio
+//:revnumber:  eg xx.xx
+:revdate: Jan 2022
+//
+//Optional variables
+:subtitle: Brillio
+:revremark:
+:product-name: Brillio
+:footer-text-field: footer-text-field
+//
+:document-title: Brillio
+//This field appears in the header and cannot be blank:
+:relnumber: 1.0
+//
+//These fields appear in the footer and cannot be blank:
+:part-number:
+:issue: Issue 1.0
+:copyright: 2022
+//
+//These fields are not used in the PDF:
+:last-update-label!:
+:other-info-link: http://brillio.io
+:other-info-link-label: Learn more
+//
+//Other variables:
+:toc: left
+:toclevels: 6
+:source-highligher: prettify
+:version: {relnumber}
+
+:imagesdir: images
+:book-build:
+:icons: font
+//:data-uri://
+
+:includedir1: content
+
+
+include::{includedir1}/task1.adoc[]
+include::{includedir1}/task2.adoc[]
