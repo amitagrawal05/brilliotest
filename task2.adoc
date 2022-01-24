@@ -1,0 +1,26 @@
+=== SDN vs. NFV: Similarities and differences
+
+The core similarity between software-defined networking (SDN) and network functions virtualization (NFV) is that they both use network abstraction. SDN seeks to separate network control functions from network forwarding functions, while NFV seeks to abstract network forwarding and other networking functions from the hardware on which it runs. Thus, both depend heavily on virtualization to enable network design and infrastructure to be abstracted in software and then implemented by underlying software across hardware platforms and devices.
+When SDN executes on an NFV infrastructure, SDN forwards data packets from one network device to another. At the same time, SDN's networking control functions for routing, policy definition and applications run in a virtual machine somewhere on the network. Thus, NFV provides basic networking functions, while SDN controls and orchestrates them for specific uses. SDN further allows configuration and behavior to be programmatically defined and modified.
+
+=== Inside SDN
+
+SDN essentially defines the big-picture side of networking: the kinds of infrastructure desired, the services and applications they deliver, and the network policies that formulate and guide their delivery and use. This kind of functionality –  especially the associated rules and policies –  changes over time, sometimes rapidly. It also explains the emphasis on programmable network control and the use of SDN controllers with a purview over entire infrastructures.
+The key ingredients of SDN include the following:
+
+* SDN delivers directly programmable network control: The ability to provision new network elements and devices, or to reconfigure existing ones, comes from a collection of programmable interfaces. This allows administrators to easily program networks either via scripting tools or third-party tools and consoles, all of which employ those programmable interfaces.
+* SDN is agile and responsive: SDN permits administrators to adjust network-wide traffic flow dynamically to meet fluctuating needs and demands.
+* Network intelligence is logically centralized through SDN controllers: Implemented in software, controllers maintain a coherent global view of the network. To applications and policy engines, SDN looks like a single, logical switch.
+
+=== NFV explored and explained
+
+NFV, by contrast, is all about the network functions that must be performed at all levels and stages of a network – at the periphery, boundary and core – to accept, forward, shape and filter network traffic as it courses through any given infrastructure.
+
+There are several important points about NFV to note:
+
+* NFV replaces network services provided by dedicated hardware with virtualized software. This means that network services, such as routers, firewalls, load balancers, XML processing and WAN optimization devices, can be replaced with software running on virtual machines. Virtualized network functions are under the control of a hypervisor, which is the role that SDN fulfills in such a scenario.
+* NFV helps save both capital expenditures (CAPEX) and operating expenses (OPEX). Network services that used to require specialized, dedicated hardware can run on standard commodity servers (such as ARM, x86 commodity hardware, and so forth), reducing costs. Because server capacity can be increased or reduced through software settings made on demand, it is no longer necessary to overprovision data or service centers to accommodate peak demand.
+
+=== Where to next?
+
+This is the first in a series of articles on SDN and NFV. The second will explore professional IT certifications that focus on or include substantial coverage of SDN and/or NFV topics. A third piece in this series will share educational resources to help interested IT professionals improve their understanding of SDN and NFV and develop skills in these important topic areas

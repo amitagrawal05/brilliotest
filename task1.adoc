@@ -1,0 +1,18 @@
+=== Introduction [[intro]]
+
+Connected devices on the Internet which are commonly known as Internet of Things (IoT) are increasing continuously at an alarming pace. There should be adequate network infrastructure facilities to handle the data explosion. One challenge is that IoT devices are globally distributed. The network infrastructure should be able to reach all these globally distributed devices. This is an enormous challenge and a huge investment in infrastructure by any single service provider. Since users are subscribed to many different service providers, and are globally distributed, it is impossible for each service provider to have its own separate network to serve its own subscribers. As new technology emerges, the hardware becomes quickly obsolete leading to huge recurring costs by each service provider.
+
+
+
+=== Challenges for future networks [[challenge]]
+
+Technology usage and its forecasted demand is growing at a very rapid phase. To catchup with the demand, research and innovation is continuously providing better and more efficient solutions in the field of data communication networks. These new solutions are essential as previous existing solutions are quickly becoming obsolete. It is not just because we have better understanding of the technology with passing of time, but predominantly because of growing concerns and new requirements. New users are constantly being added to the networks daily as well as new types of network services. Both added number of users and new kinds of services are demanding huge network resources and this demand is growing exponentially.
+
+
+=== Concept of network virtualization [[concept]]
+
+First consider the present traditional network scenario. In this scenario, all these different devices are spread throughout the entire network. Since each device has fixed network functionality, the device location has to be carefully planned within the network. After some duration of time, if the network layout has to be changed to accommodate new requirements, these network devices have to be rearranged, reconnected, and then reconfigured individually. Since the control function of each device is embedded into it, each device presents a separate management interface that has to be accessed individually. Sometimes new devices have to be added and the old ones have to be discarded, wasting network infrastructure resources. All these reasons leads to higher infrastructure, operations, and management costs.
+
+=== Concept Resource provisioning for big data handling
+
+Many experts in industry related to information technology and data networks will immediately conclude that the obvious major sources of data in future would be IoT devices and social networks. When Big Data grows, the concern over its trustworthiness also increases. The data also has to be highly accessible through a simple query mechanism. This is a necessary because the success of any data analysis activity depends on the degree of data availability. If relevant data is readily available, quick and accurate decisions can be drawn from the analytical activity. Decisions based on accurate data analysis will have profound effect on taking sound decisions to improve any business activity. Another major aspect is the speed with which the data can be transferred between relevant users so that they can quickly correlate data to jointly extract and exchange knowledge as well as information. By doing so, they will be able to come up with decisions in time and do not miss any major opportunities. This is crucial for any business to remain ahead of their counterparts.
